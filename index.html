@@ -53,7 +53,7 @@
         
     </header>
     <!-- main section  -->
-    <main>
+    <main class="container-fluid">
       <!-- slider section  -->
       <section class="container my-5">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -98,11 +98,12 @@
       <!-- corses  -->
       <section class="container-fluid px-5 d-flex flex-column justify-content-center align-items-center">
         <!-- courses title  -->
-        <div class=" text-align-center px-5">
+        <div class=" text-align-center px-5 my-5">
           <h2 class="fs-1 fw-bold text-center">
             Discover Our Popular Courses
           </h2>
-          <p class="text-center fs-5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <p class="text-center fs-5 ">It is a long established fact that a reader will be distracted 
+            <br> by the readable content of a page when looking at its layout.</p>
           
         </div>
         <!-- courses info -->
@@ -216,12 +217,16 @@
         </div>
       </section>
       <!-- join section  -->
-      <section class="container mb-5 p-5 bg-primary d-lg-flex justify-content-sm-center align-items-sm-center d-sm-row">
-        <div>
-          <h2 class="text-light  fs-1 ">Ready to join?</h2>
-          <p class=" text-light w-75">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-        </div>
-        <div class="">
+      <section class="container mb-5 p-5 bg-primary d-lg-flex justify-content-center align-items-center ">
+        
+          <div class="d-flex d-mdflex d-sm-flex flex-column
+          ">
+            <h2 class="text-light  fs-1 ">Ready to join?</h2>
+          <p class=" text-light w-75
+          ">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          </div>
+        
+        <div class="d-flex justify-content-center align-items-center">
           
           <button type="button" class="btn btn-light text-primary fs-5 px-3 " data-bs-toggle="modal" data-bs-target="#exampleModal">
             Register
@@ -248,6 +253,59 @@
         </div>
 
       </section>
+      <!-- question section  -->
+      <section class="container d-flex justify-content-center align-items-center flex-column my-5">
+        <div class="text-center p-5">
+          <h2 class="fs-1 fw-bold">Frequently Asked Questions</h2>
+          <p class="fs-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+
+        </div>
+        <div>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  What is the difference between flexbox and grid?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Dimensions define the primary demarcation between Flexbox and CSS Grid. Flexbox was designed specifically for one-dimensional layouts, while CSS Grid is engineered to enable two-dimensional layouts. Therefore, CSS Grid can easily render rows and columns simultaneously.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  What is the difference between bootstrap and tailwind?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is not a UI kit. Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS doesn’t have a default theme or built-in UI components. Instead, it comes with predesigned widgets you can use to build your site from scratch.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  What is CSS Box Model?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements. The web browser renders every element as a rectangular box according to the CSS box model. Box-Model has multiple properties in CSS.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  What is Semantic Tags?
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The core characteristic of a semantic element is that it clearly communicated its meaning to both the developer and the browser. These elements clearly define its content. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
   
       
 
